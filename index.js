@@ -1,9 +1,8 @@
 #!/usr/bin/env node
+const path = require('path');
+const inquirer = require('inquirer');
 
-const path = require('path')
-const inquirer = require('inquirer')
-
-const basename = path.basename(process.cwd())
+const basename = path.basename(process.cwd());
 
 const questions = [
     {
@@ -47,7 +46,7 @@ const questions = [
         ],
         default: ['eslint', 'taobao']
     }
-]
+];
 
 inquirer.prompt(questions).then(async answers => {
     console.log('✨ Success.')
