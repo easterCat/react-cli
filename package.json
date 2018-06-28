@@ -8,6 +8,9 @@
     "build": "set NODE_ENV=production&&webpack -p --config webpack.pro.js",
     "start": "webpack-dev-server --devtool eval --progress --colors --config webpack.dev.js "
   },
+  "bin": {
+    "react-cli": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/easterCat/easter_webpack.git"
