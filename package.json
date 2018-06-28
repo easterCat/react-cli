@@ -1,8 +1,8 @@
 {
   "name": "react-cli",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "this is a cli to create react env quick",
+  "main": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "set NODE_ENV=production&&webpack -p --config webpack.pro.js",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/easterCat/easter_webpack.git"
+    "url": "git+https://github.com/easterCat/react-cli.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/easterCat/easter_webpack/issues"
+    "url": "https://github.com/easterCat/react-cli/issues"
   },
-  "homepage": "https://github.com/easterCat/easter_webpack#readme",
+  "homepage": "https://github.com/easterCat/react-cli#readme",
   "dependencies": {
     "cross-spawn": "^5.1.0",
     "fs-extra": "^5.0.0",
