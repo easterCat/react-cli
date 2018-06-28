@@ -3,9 +3,9 @@
  */
 import React from 'react';
 import {Route} from 'react-router-dom';
-import Content01 from './content01';
-import Content02 from './content02';
-import Content03 from './content03';
+import Content01 from './Content01';
+import Content02 from './Content02';
+import Content03 from './Content03';
 
 export default class Content extends React.Component {
     render() {

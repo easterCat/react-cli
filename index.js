@@ -49,6 +49,6 @@ const questions = [
     }
 ]
 
-inquirer.prompt(questions).then(async (config) => {
+inquirer.prompt(questions).then(async answers => {
     console.log('✨ Success.')
-})
+});
